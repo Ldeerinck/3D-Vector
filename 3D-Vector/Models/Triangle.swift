@@ -6,3 +6,10 @@
 //
 
 import Foundation
+import simd
+
+struct Triangle {
+    let v0: simd_float3
+    let v1: simd_float3
+    let v2: simd_float3
+}

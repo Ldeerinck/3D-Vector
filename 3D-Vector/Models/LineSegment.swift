@@ -6,9 +6,9 @@
 //
 
 import Foundation
-import Spatial
+import simd
 
 struct LineSegment {
-    let start: Point3D
-    let end: Point3D
+    let start: simd_float3
+    let end: simd_float3
 }

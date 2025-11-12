@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B64FDFAE2EC3DA590022EE55 /* ColinearCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64FDFAD2EC3DA590022EE55 /* ColinearCheck.swift */; };
+		B64FDFC12EC527B80022EE55 /* CoplanerCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64FDFC02EC527B80022EE55 /* CoplanerCheck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,7 @@
 		B64FDF8B2EC3D8630022EE55 /* 3D-VectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "3D-VectorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B64FDF952EC3D8630022EE55 /* 3D-VectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "3D-VectorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B64FDFAD2EC3DA590022EE55 /* ColinearCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColinearCheck.swift; sourceTree = "<group>"; };
+		B64FDFC02EC527B80022EE55 /* CoplanerCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoplanerCheck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				B64FDFAD2EC3DA590022EE55 /* ColinearCheck.swift */,
+				B64FDFC02EC527B80022EE55 /* CoplanerCheck.swift */,
 				B64FDF802EC3D8620022EE55 /* 3D-Vector */,
 				B64FDF8E2EC3D8630022EE55 /* 3D-VectorTests */,
 				B64FDF982EC3D8630022EE55 /* 3D-VectorUITests */,
@@ -242,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B64FDFC12EC527B80022EE55 /* CoplanerCheck.swift in Sources */,
 				B64FDFAE2EC3DA590022EE55 /* ColinearCheck.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
