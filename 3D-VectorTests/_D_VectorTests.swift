@@ -6,7 +6,7 @@
 //
 
 import Testing
-import Spatial
+import simd
 @testable import _D_Vector
 
 struct _D_VectorTests {
